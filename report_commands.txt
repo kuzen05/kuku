@@ -1,0 +1,57 @@
+   46  git clone https://github.com/Weakne55/Bioinformatics305/tree/master#
+   49  git clone https://github.com/Weakne55/Bioinformatics305.git
+   51  git remote remove origin 
+   52  git remote add origin https://github.com/kuzen05/kuku
+   53  git remote -v
+   58  git add lab_disaster/raw_data/
+   59  git commit -m "Cleanup temp files"
+   60  git config --global user.email "kuzen@github.com"
+   61  git config --global user.name "kuzen05"
+   62  git config --global user.email "kateuzen@gmail.com"
+   69  git checkout -b investigation
+   70  git add infected_reads.txt
+   71  git commit -m "Add infected reads"
+   74  git add mini_run.fastq
+   75  git commit -m "Add mini run fastq"
+   79  git status
+   80  git checkout HEAD lab_disaster/experiment.log
+   81  echo "git checkout HEAD lab_disaster/experiment.log" > command.txt
+   82  git add command.txt
+   83  git commit -m "Add command to restore experiment.log"
+   84  git checkout main
+   86  git branch
+   87  git checkout master
+   88  echo "git checkout HEAD lab_disaster/experiment.log" > command.txt
+   89  git add command.txt
+   90  git commit -m "Add command to restore experiment.log"
+   91  git checkout investigation
+   92  git reset --hard HEAD~1
+   93  git log --oneline -3
+   96  git add access.log sort.txt
+   97  git commit -m "Add access log and sorted counts"
+   99  git merge investigation
+  100  git checkout master
+  101  git checkout investigation
+  102  git reset --hard HEAD~1
+  103  git checkout main
+  105  git checkout master
+  108  git add access.log sort.txt
+  110  git add access.log sort.txt
+  111  git commit -m "Add access log and sorted counts"
+  112  git branch
+  113  git merge investigation
+  114  git branch
+  117  git add genes_fixed.csv
+  118  git commit -m "Convert genes.tsv to CSV"
+  119  git checkout -b cleaning
+  122  git add diskusage.file
+  123  git commit -m "Add disk usage info for large files and fastq"
+  124  git checkout main
+  125  git checkout master
+  127  git add kuku.txt
+  128  git commit -m "Add kuku"
+  129  git log --oneline -1
+  131  git add forgotten.txt
+  142  git add amend.txt
+  143  git commit -m "Add explanation about amend"
+  144  history | grep git > report_commands.txt
