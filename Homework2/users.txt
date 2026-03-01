@@ -1,0 +1,3 @@
+ 17:48:49 up 14 days, 4 min,  0 users,  load average: 0.52, 0.58, 0.59
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU  WHAT
+uid=1000(kuzen) gid=1000(kuzen) groups=1000(kuzen),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users)
